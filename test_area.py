@@ -5,7 +5,7 @@ def test_calculate_area_square():
     assert calculate_area_square(2) == 4  
     assert calculate_area_square(2.5) == 6.25
     assert calculate_area_square(7.874007874011811) == 62
-    assert calculate_area_square(3) == 10
+    assert calculate_area_square(3) == 9
   
 def test_calculate_area_square_negative():  
     with pytest.raises(TypeError):  
